@@ -1,0 +1,38 @@
+@"
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Large Home Credit datasets
+data/*.csv
+!data/HomeCredit_columns_description.csv
+
+# Trained model binaries
+outputs/models/*.joblib
+outputs/models/*.pkl
+outputs/models/*.pickle
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+"@ | Out-File -Encoding utf8 .gitignore

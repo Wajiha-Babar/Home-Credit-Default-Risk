@@ -1,0 +1,4 @@
+Model,CV ROC AUC,Accuracy,Precision,Recall,F1 Score,ROC AUC,Best Params
+XGBoost,0.7445565166082323,0.7104444444444444,0.17412417620534165,0.6905089408528198,0.27811634349030473,0.7616275812120467,"{""model__colsample_bytree"": 0.85, ""model__learning_rate"": 0.05, ""model__max_depth"": 3, ""model__n_estimators"": 260, ""model__subsample"": 0.85}"
+Random Forest,0.7292408279864234,0.8373333333333334,0.22479462285287527,0.4140302613480055,0.29138431752178123,0.7502822775269845,"{""model__max_depth"": 16, ""model__min_samples_leaf"": 25, ""model__n_estimators"": 180}"
+Logistic Regression + SMOTE,0.7273897762493511,0.6958888888888889,0.16611295681063123,0.687757909215956,0.2675943270002676,0.7449887113929056,"{""model__C"": 0.5}"
